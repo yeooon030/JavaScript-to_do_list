@@ -10,7 +10,7 @@ body{
 }
 
 #container{
-  width: 800px;
+  width: 60%;
   max-width: 80%;
   height: 100%;
   min-height: 100vh;
@@ -21,31 +21,31 @@ h1{
   display: flex;
   justify-content: center;
   font-weight: bolder;
-  font-size: 60px;
+  font-size: 3em;
   text-transform: uppercase;
-  padding: 0 10px;
+  padding: 0 5%px;
   font-family: "Pacifico", sans-serif;
   text-transform: none!important;
 }
 .input-area{
-  margin-top: 50px;
+  margin-top: 5%;
   display: flex;
   justify-content: center;
 }
 input{
-  width: 200px;
-  height: 30px;
-  font-size: 17px;
+  width: 20vw;
+  height: 6vh;
+  font-size: 70%;
   border-radius: 15px;
   outline: none;
-  margin-right: 7px;
-  padding-left: 15px;
+  margin-right: 2%;
+  padding-left: 10%;
 }
 #add-button{
-  border-radius: 15px;
+  border-radius: 10px;
   border: none;
-  width: 40px;
-  font-size: 20px;
+  width: 1.5em;
+  font-size: 1.5em;
   font-weight: 800;
   background-color: rgb(179, 245, 245);
 }
@@ -58,7 +58,7 @@ input{
   }
 .task-tabs{
   background-color: white;
-  margin-top: 50px;
+  margin-top: 5%;
   display: flex;
   position: relative;
   justify-content: center;
@@ -67,29 +67,29 @@ input{
   padding: 1em;
   cursor: pointer;
   position: inherit;
-  font-size: 20px;
-
+  font-size: 30%
+  font-weight: 500;
 }
 .task-tabs div:hover{
-  transform:scale(1.2);
+  transform:scale(1.1);
 }
 
 #under-line{
   background-color: #7ce7e2;
-  height: 9px !important;
+  height: 0.5em !important;
   position: absolute;
-  top: 57.5px;
-  left: 0px;
+  top: 80%;
+  left: 0;
   width:0;
   transition: 0.5s;
-  padding: 0px;
+  padding: 0;
 }
 
 #task-board{
   background-color: rgba(255,255,255,0.6);
   max-width: 100%;
-  padding: 13px;
-  border-bottom: 2px pink;
+  padding: 2%;
+  border-bottom: 2vh pink;
 }
 .task{
   display: flex;
@@ -98,8 +98,8 @@ input{
   color: white;
   font-weight: 900;
   font-size: larger;
-  margin-left: 10px;
-  padding: 8px;
+  margin-left: 3%;
+  padding: 2%;
   border: 1px black;
 }
 .task-done span{
@@ -108,14 +108,17 @@ input{
 }
 
 #button-area{
-  margin-right: 10px;
+  margin-right: 3%;
 }
 #button-area button{
-  font-size: large;
+  font-size:70%;
   padding: 8px;
   margin: 0 5px;
   background-color: black;
   color: white;
   border: none;
+}
+#button-area button:hover{
+  cursor: pointer;
 }
 
